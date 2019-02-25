@@ -13,8 +13,13 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "d, E",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
@@ -42,6 +47,8 @@
                 "MMMEd": "E, MMM d",
                 "MMMMd": "MMMM d",
                 "MMMMEd": "E, MMMM d",
+                "MMMMW-count-one": "'usbuuc' W 'ee' MMMM",
+                "MMMMW-count-other": "'usbuuc' W 'ee' MMMM",
                 "ms": "mm:ss",
                 "y": "y",
                 "yM": "M/y",
@@ -52,7 +59,9 @@
                 "yMMMEd": "E, MMM d, y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-one": "'Usbuuca' w 'e' Y",
+                "yw-count-other": "'Usbuuca' w 'ee' Y"
             },
             "dateFormats": {
                 "yMMMMEEEEd": "EEEE, MMMM dd, y",
@@ -119,7 +128,7 @@
                         "I",
                         "T",
                         "A",
-                        "K",
+                        "Kh",
                         "J",
                         "S"
                     ],
@@ -164,32 +173,32 @@
             "gregory": {
                 "months": {
                     "narrow": [
-                        "1",
-                        "2",
-                        "3",
-                        "4",
-                        "5",
-                        "6",
-                        "7",
-                        "8",
-                        "9",
-                        "10",
-                        "11",
-                        "12"
+                        "K",
+                        "L",
+                        "S",
+                        "A",
+                        "S",
+                        "L",
+                        "T",
+                        "S",
+                        "S",
+                        "T",
+                        "K",
+                        "L"
                     ],
                     "short": [
                         "Kob",
                         "Lab",
                         "Sad",
                         "Afr",
-                        "Sha",
-                        "Lix",
-                        "Tod",
-                        "Sid",
-                        "Sag",
-                        "Tob",
-                        "KIT",
-                        "LIT"
+                        "May",
+                        "Juun",
+                        "Luuliyo",
+                        "Og",
+                        "Sebtembar",
+                        "Oktoobar",
+                        "Nofembar",
+                        "Dec"
                     ],
                     "long": [
                         "Bisha Koobaad",
@@ -212,7 +221,7 @@
                         "I",
                         "T",
                         "A",
-                        "K",
+                        "Kh",
                         "J",
                         "S"
                     ],
@@ -249,10 +258,10 @@
                         "CE"
                     ],
                     "long": [
-                        "Ciise ka hor (CS)",
-                        "Ciise ka dib (CS)",
-                        "BCE",
-                        "CE"
+                        "CK",
+                        "CD",
+                        "Ka hor taariikhda miilaadiga",
+                        "Taariikhda miilaadiga"
                     ]
                 },
                 "dayPeriods": {
@@ -293,12 +302,16 @@
         },
         "currencies": {
             "AUD": "A$",
+            "BBD": "DBB",
             "BRL": "R$",
+            "BSD": "DBS",
             "CAD": "CA$",
             "CNY": "CN¥",
+            "CRC": "KKR",
             "EUR": "€",
             "GBP": "£",
             "HKD": "HK$",
+            "HNL": "LHN",
             "ILS": "₪",
             "INR": "₹",
             "JPY": "JP¥",
@@ -313,7 +326,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

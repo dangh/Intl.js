@@ -1,5 +1,5 @@
 {
-    "locale": "ff-SN",
+    "locale": "tg-TJ",
     "date": {
         "ca": [
             "gregory",
@@ -13,17 +13,22 @@
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
                 "Ed": "d, E",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
                 "Ehms": "E h:mm:ss a",
                 "EHms": "E HH:mm:ss",
-                "Gy": "G y",
-                "GyMMM": "G y MMM",
-                "GyMMMd": "G y MMM d",
-                "GyMMMEd": "G y MMM d, E",
+                "Gy": "y G",
+                "GyMMM": "MMM y G",
+                "GyMMMd": "d MMM, y G",
+                "GyMMMEd": "E, d MMM, y G",
                 "h": "h a",
                 "H": "HH",
                 "hm": "h:mm a",
@@ -34,34 +39,32 @@
                 "Hmsv": "HH:mm:ss v",
                 "hmv": "h:mm a v",
                 "Hmv": "HH:mm v",
-                "M": "M",
-                "Md": "d/M",
-                "MEd": "MM-dd, E",
-                "MMd": "d/MM",
-                "MMdd": "dd/MM",
-                "MMM": "MMM",
+                "M": "L",
+                "Md": "dd-MM",
+                "MEd": "E, dd-MM",
+                "MMM": "LLL",
                 "MMMd": "d MMM",
-                "MMMEd": "E d MMM",
+                "MMMEd": "E, d MMM",
                 "MMMMd": "d MMMM",
-                "MMMMEd": "E d MMMM",
-                "ms": "m:ss",
+                "MMMMW-count-other": "'ҳафтаи' W, MMM",
+                "ms": "mm:ss",
                 "y": "y",
-                "yM": "M/y",
-                "yMd": "y-MM-dd",
-                "yMEd": "E d/M/y",
-                "yMM": "MM/y",
+                "yM": "MM-y",
+                "yMd": "d/M/y",
+                "yMEd": "E, d/M/y",
                 "yMMM": "MMM y",
-                "yMMMd": "d MMM y",
-                "yMMMEd": "E d MMM y",
+                "yMMMd": "d MMM, y",
+                "yMMMEd": "E, d MMM, y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-other": "'ҳафтаи' w, Y"
             },
             "dateFormats": {
-                "yMMMMEEEEd": "EEEE d MMMM y",
-                "yMMMMd": "d MMMM y",
-                "yMMMd": "d MMM, y",
-                "yMd": "d/M/y"
+                "yMMMMEEEEd": "EEEE, dd MMMM y",
+                "yMMMMd": "dd MMMM y",
+                "yMMMd": "dd MMM y",
+                "yMd": "dd/MM/yy"
             },
             "timeFormats": {
                 "hmmsszzzz": "HH:mm:ss zzzz",
@@ -118,31 +121,31 @@
                 },
                 "days": {
                     "narrow": [
-                        "d",
-                        "a",
-                        "m",
-                        "n",
-                        "n",
-                        "m",
-                        "h"
+                        "Я",
+                        "Д",
+                        "С",
+                        "Ч",
+                        "П",
+                        "Ҷ",
+                        "Ш"
                     ],
                     "short": [
-                        "dew",
-                        "aaɓ",
-                        "maw",
-                        "nje",
-                        "naa",
-                        "mwd",
-                        "hbi"
+                        "Яшб",
+                        "Дшб",
+                        "Сшб",
+                        "Чшб",
+                        "Пшб",
+                        "Ҷмъ",
+                        "Шнб"
                     ],
                     "long": [
-                        "dewo",
-                        "aaɓnde",
-                        "mawbaare",
-                        "njeslaare",
-                        "naasaande",
-                        "mawnde",
-                        "hoore-biir"
+                        "Якшанбе",
+                        "Душанбе",
+                        "Сешанбе",
+                        "Чоршанбе",
+                        "Панҷшанбе",
+                        "Ҷумъа",
+                        "Шанбе"
                     ]
                 },
                 "eras": {
@@ -160,107 +163,107 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "subaka",
-                    "pm": "kikiiɗe"
+                    "am": "пе. чо.",
+                    "pm": "па. чо."
                 }
             },
             "gregory": {
                 "months": {
                     "narrow": [
-                        "s",
-                        "c",
-                        "m",
-                        "s",
-                        "d",
-                        "k",
-                        "m",
-                        "j",
-                        "s",
-                        "y",
-                        "j",
-                        "b"
+                        "Я",
+                        "Ф",
+                        "М",
+                        "А",
+                        "М",
+                        "И",
+                        "И",
+                        "А",
+                        "С",
+                        "О",
+                        "Н",
+                        "Д"
                     ],
                     "short": [
-                        "sii",
-                        "col",
-                        "mbo",
-                        "see",
-                        "duu",
-                        "kor",
-                        "mor",
-                        "juk",
-                        "slt",
-                        "yar",
-                        "jol",
-                        "bow"
+                        "Янв",
+                        "Фев",
+                        "Мар",
+                        "Апр",
+                        "Май",
+                        "Июн",
+                        "Июл",
+                        "Авг",
+                        "Сен",
+                        "Окт",
+                        "Ноя",
+                        "Дек"
                     ],
                     "long": [
-                        "siilo",
-                        "colte",
-                        "mbooy",
-                        "seeɗto",
-                        "duujal",
-                        "korse",
-                        "morso",
-                        "juko",
-                        "siilto",
-                        "yarkomaa",
-                        "jolal",
-                        "bowte"
+                        "Январ",
+                        "Феврал",
+                        "Март",
+                        "Апрел",
+                        "Май",
+                        "Июн",
+                        "Июл",
+                        "Август",
+                        "Сентябр",
+                        "Октябр",
+                        "Ноябр",
+                        "Декабр"
                     ]
                 },
                 "days": {
                     "narrow": [
-                        "d",
-                        "a",
-                        "m",
-                        "n",
-                        "n",
-                        "m",
-                        "h"
+                        "Я",
+                        "Д",
+                        "С",
+                        "Ч",
+                        "П",
+                        "Ҷ",
+                        "Ш"
                     ],
                     "short": [
-                        "dew",
-                        "aaɓ",
-                        "maw",
-                        "nje",
-                        "naa",
-                        "mwd",
-                        "hbi"
+                        "Яшб",
+                        "Дшб",
+                        "Сшб",
+                        "Чшб",
+                        "Пшб",
+                        "Ҷмъ",
+                        "Шнб"
                     ],
                     "long": [
-                        "dewo",
-                        "aaɓnde",
-                        "mawbaare",
-                        "njeslaare",
-                        "naasaande",
-                        "mawnde",
-                        "hoore-biir"
+                        "Якшанбе",
+                        "Душанбе",
+                        "Сешанбе",
+                        "Чоршанбе",
+                        "Панҷшанбе",
+                        "Ҷумъа",
+                        "Шанбе"
                     ]
                 },
                 "eras": {
                     "narrow": [
-                        "H-I",
-                        "C-I",
+                        "ПеМ",
+                        "ПаМ",
                         "BCE",
                         "CE"
                     ],
                     "short": [
-                        "H-I",
-                        "C-I",
+                        "ПеМ",
+                        "ПаМ",
                         "BCE",
                         "CE"
                     ],
                     "long": [
-                        "Hade Iisa",
-                        "Caggal Iisa",
+                        "Пеш аз милод",
+                        "ПаМ",
                         "BCE",
                         "CE"
                     ]
                 },
                 "dayPeriods": {
-                    "am": "subaka",
-                    "pm": "kikiiɗe"
+                    "am": "пе. чо.",
+                    "pm": "па. чо."
                 }
             }
         }
@@ -308,13 +311,15 @@
             "KRW": "₩",
             "MXN": "MX$",
             "NZD": "NZ$",
+            "TJS": "сом.",
             "TWD": "NT$",
-            "USD": "US$",
+            "USD": "$",
             "VND": "₫",
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }

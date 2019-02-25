@@ -1,29 +1,34 @@
 {
-    "locale": "ff-MR",
+    "locale": "jv-ID",
     "date": {
         "ca": [
             "gregory",
             "generic"
         ],
         "hourNo0": true,
-        "hour12": true,
+        "hour12": false,
         "formats": {
-            "short": "{1} {0}",
-            "medium": "{1} {0}",
+            "short": "{1}, {0}",
+            "medium": "{1}, {0}",
             "full": "{1} {0}",
             "long": "{1} {0}",
             "availableFormats": {
+                "Bh": "h B",
+                "Bhm": "h:mm B",
+                "Bhms": "h:mm:ss B",
                 "d": "d",
                 "E": "ccc",
-                "Ed": "d, E",
+                "EBhm": "E h:mm B",
+                "EBhms": "E h:mm:ss B",
+                "Ed": "E, d",
                 "Ehm": "E h:mm a",
                 "EHm": "E HH:mm",
                 "Ehms": "E h:mm:ss a",
                 "EHms": "E HH:mm:ss",
-                "Gy": "G y",
-                "GyMMM": "G y MMM",
-                "GyMMMd": "G y MMM d",
-                "GyMMMEd": "G y MMM d, E",
+                "Gy": "y G",
+                "GyMMM": "MMM y G",
+                "GyMMMd": "d MMM y G",
+                "GyMMMEd": "E, d MMM y G",
                 "h": "h a",
                 "H": "HH",
                 "hm": "h:mm a",
@@ -34,40 +39,38 @@
                 "Hmsv": "HH:mm:ss v",
                 "hmv": "h:mm a v",
                 "Hmv": "HH:mm v",
-                "M": "M",
-                "Md": "d/M",
-                "MEd": "MM-dd, E",
-                "MMd": "d/MM",
-                "MMdd": "dd/MM",
-                "MMM": "MMM",
+                "M": "L",
+                "Md": "dd/MM",
+                "MEd": "E dd/MM",
+                "MMM": "LLL",
                 "MMMd": "d MMM",
-                "MMMEd": "E d MMM",
+                "MMMEd": "E, d MMM",
                 "MMMMd": "d MMMM",
-                "MMMMEd": "E d MMMM",
-                "ms": "m:ss",
+                "MMMMW-count-other": "'pekan' W 'saka' MMMM",
+                "ms": "mm:ss",
                 "y": "y",
-                "yM": "M/y",
-                "yMd": "y-MM-dd",
-                "yMEd": "E d/M/y",
-                "yMM": "MM/y",
+                "yM": "MM-y",
+                "yMd": "dd-MM-y",
+                "yMEd": "E, dd-MM-y",
                 "yMMM": "MMM y",
                 "yMMMd": "d MMM y",
-                "yMMMEd": "E d MMM y",
+                "yMMMEd": "E, d MMM y",
                 "yMMMM": "MMMM y",
                 "yQQQ": "QQQ y",
-                "yQQQQ": "QQQQ y"
+                "yQQQQ": "QQQQ y",
+                "yw-count-other": "'pekan' w 'saka' Y"
             },
             "dateFormats": {
-                "yMMMMEEEEd": "EEEE d MMMM y",
+                "yMMMMEEEEd": "EEEE, d MMMM y",
                 "yMMMMd": "d MMMM y",
-                "yMMMd": "d MMM, y",
-                "yMd": "d/M/y"
+                "yMMMd": "d MMM y",
+                "yMd": "dd-MM-y"
             },
             "timeFormats": {
-                "hmmsszzzz": "h:mm:ss a zzzz",
-                "hmsz": "h:mm:ss a z",
-                "hms": "h:mm:ss a",
-                "hm": "h:mm a"
+                "hmmsszzzz": "HH:mm:ss zzzz",
+                "hmsz": "HH:mm:ss z",
+                "hms": "HH:mm:ss",
+                "hm": "HH:mm"
             }
         },
         "calendars": {
@@ -118,31 +121,31 @@
                 },
                 "days": {
                     "narrow": [
-                        "d",
-                        "a",
-                        "m",
-                        "n",
-                        "n",
-                        "m",
-                        "h"
+                        "A",
+                        "S",
+                        "S",
+                        "R",
+                        "K",
+                        "J",
+                        "S"
                     ],
                     "short": [
-                        "dew",
-                        "aaɓ",
-                        "maw",
-                        "nje",
-                        "naa",
-                        "mwd",
-                        "hbi"
+                        "Ahd",
+                        "Sen",
+                        "Sel",
+                        "Rab",
+                        "Kam",
+                        "Jum",
+                        "Sab"
                     ],
                     "long": [
-                        "dewo",
-                        "aaɓnde",
-                        "mawbaare",
-                        "njeslaare",
-                        "naasaande",
-                        "mawnde",
-                        "hoore-biir"
+                        "Ahad",
+                        "Senin",
+                        "Selasa",
+                        "Rabu",
+                        "Kamis",
+                        "Jumat",
+                        "Sabtu"
                     ]
                 },
                 "eras": {
@@ -160,107 +163,107 @@
                     ]
                 },
                 "dayPeriods": {
-                    "am": "subaka",
-                    "pm": "kikiiɗe"
+                    "am": "Isuk",
+                    "pm": "Wengi"
                 }
             },
             "gregory": {
                 "months": {
                     "narrow": [
-                        "s",
-                        "c",
-                        "m",
-                        "s",
-                        "d",
-                        "k",
-                        "m",
-                        "j",
-                        "s",
-                        "y",
-                        "j",
-                        "b"
+                        "J",
+                        "F",
+                        "M",
+                        "A",
+                        "M",
+                        "J",
+                        "J",
+                        "A",
+                        "S",
+                        "O",
+                        "N",
+                        "D"
                     ],
                     "short": [
-                        "sii",
-                        "col",
-                        "mbo",
-                        "see",
-                        "duu",
-                        "kor",
-                        "mor",
-                        "juk",
-                        "slt",
-                        "yar",
-                        "jol",
-                        "bow"
+                        "Jan",
+                        "Feb",
+                        "Mar",
+                        "Apr",
+                        "Mei",
+                        "Jun",
+                        "Jul",
+                        "Agt",
+                        "Sep",
+                        "Okt",
+                        "Nov",
+                        "Des"
                     ],
                     "long": [
-                        "siilo",
-                        "colte",
-                        "mbooy",
-                        "seeɗto",
-                        "duujal",
-                        "korse",
-                        "morso",
-                        "juko",
-                        "siilto",
-                        "yarkomaa",
-                        "jolal",
-                        "bowte"
+                        "Januari",
+                        "Februari",
+                        "Maret",
+                        "April",
+                        "Mei",
+                        "Juni",
+                        "Juli",
+                        "Agustus",
+                        "September",
+                        "Oktober",
+                        "November",
+                        "Desember"
                     ]
                 },
                 "days": {
                     "narrow": [
-                        "d",
-                        "a",
-                        "m",
-                        "n",
-                        "n",
-                        "m",
-                        "h"
+                        "A",
+                        "S",
+                        "S",
+                        "R",
+                        "K",
+                        "J",
+                        "S"
                     ],
                     "short": [
-                        "dew",
-                        "aaɓ",
-                        "maw",
-                        "nje",
-                        "naa",
-                        "mwd",
-                        "hbi"
+                        "Ahd",
+                        "Sen",
+                        "Sel",
+                        "Rab",
+                        "Kam",
+                        "Jum",
+                        "Sab"
                     ],
                     "long": [
-                        "dewo",
-                        "aaɓnde",
-                        "mawbaare",
-                        "njeslaare",
-                        "naasaande",
-                        "mawnde",
-                        "hoore-biir"
+                        "Ahad",
+                        "Senin",
+                        "Selasa",
+                        "Rabu",
+                        "Kamis",
+                        "Jumat",
+                        "Sabtu"
                     ]
                 },
                 "eras": {
                     "narrow": [
-                        "H-I",
-                        "C-I",
-                        "BCE",
-                        "CE"
+                        "SM",
+                        "M",
+                        "SEU",
+                        "EU"
                     ],
                     "short": [
-                        "H-I",
-                        "C-I",
-                        "BCE",
-                        "CE"
+                        "SM",
+                        "M",
+                        "SEU",
+                        "EU"
                     ],
                     "long": [
-                        "Hade Iisa",
-                        "Caggal Iisa",
-                        "BCE",
-                        "CE"
+                        "Sakdurunge Masehi",
+                        "Masehi",
+                        "Sakdurunge Era Umum",
+                        "Era Umum"
                     ]
                 },
                 "dayPeriods": {
-                    "am": "subaka",
-                    "pm": "kikiiɗe"
+                    "am": "Isuk",
+                    "pm": "Wengi"
                 }
             }
         }
@@ -275,8 +278,8 @@
                 "negativePattern": "{minusSign}{number}"
             },
             "currency": {
-                "positivePattern": "{number} {currency}",
-                "negativePattern": "{minusSign}{number} {currency}"
+                "positivePattern": "{currency} {number}",
+                "negativePattern": "{minusSign}{currency} {number}"
             },
             "percent": {
                 "positivePattern": "{number}{percentSign}",
@@ -286,7 +289,7 @@
         "symbols": {
             "latn": {
                 "decimal": ",",
-                "group": " ",
+                "group": ".",
                 "nan": "NaN",
                 "plusSign": "+",
                 "minusSign": "-",
@@ -302,11 +305,11 @@
             "EUR": "€",
             "GBP": "£",
             "HKD": "HK$",
+            "IDR": "Rp",
             "ILS": "₪",
             "INR": "₹",
             "JPY": "JP¥",
             "KRW": "₩",
-            "MRO": "UM",
             "MXN": "MX$",
             "NZD": "NZ$",
             "TWD": "NT$",
@@ -315,7 +318,8 @@
             "XAF": "FCFA",
             "XCD": "EC$",
             "XOF": "CFA",
-            "XPF": "CFPF"
+            "XPF": "CFPF",
+            "XXX": "¤"
         }
     }
 }
